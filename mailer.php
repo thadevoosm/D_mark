@@ -1,7 +1,8 @@
 <?php
 
 /* Set e-mail recipient */
-$myemail = "george@dmarktechnologies.com";
+// $myemail = "george@dmarktechnologies.com";
+$myemail = "thadevoosmbiju@gmail.com";
 
 /*
  * Check all form inputs using check_input function
