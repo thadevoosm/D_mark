@@ -3291,7 +3291,10 @@ a.ovelay-icon:hover {
 }
 .about-text-outer-area .right-side .img-holder img {
 	margin: 0 auto;
+	margin-top: 50px !important;
+	top: 0%;
 	display: block;
+	width: 80%;
 }
 /*---------------------------   Our Team Styles    -----------------------------------*/
 .our-team-area-outer {
