@@ -1129,6 +1129,8 @@ ol li a:hover {
 	margin: 0 auto;
 	display: block;
 	max-width: 100%;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 }
 /*----------------------------  call to action Styles    ----------------------------------------------------*/
 
