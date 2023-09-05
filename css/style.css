@@ -273,7 +273,7 @@ body::-webkit-scrollbar-thumb {
 }
 .header-area.navbar-fixed-top {
 	position: fixed;
-	background: rgba(0,0,0,0.7);
+	background: rgb(238, 238, 238);
 	padding: 15px 0;
 	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
@@ -349,7 +349,7 @@ body::-webkit-scrollbar-thumb {
 	vertical-align: bottom;
 }
 .menu li a {
-	color: #ffffff;
+	color: #000000;
 	display: block;
 	transition: all 0.5s ease 0s;
 }
@@ -4310,6 +4310,7 @@ a.ovelay-icon {
 	height: auto;
 	padding: 0;
 	border-radius: 0px;
+	background: whitesmoke;
 }
 .header-area .container {
 	padding: 10px 0px 20px!important;
