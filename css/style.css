@@ -193,6 +193,9 @@ img {
 	color: #1e9fb4;
 	font-size: 18px;
 }
+#product-new{
+	max-width: 1920px !important;
+}
 .container {
 	margin: 0 auto;
 	width: 100%;
@@ -3316,9 +3319,6 @@ a.ovelay-icon:hover {
 .our-team-detail-sec .main-title h3 {
 	text-transform: uppercase;
 	text-align: center;
-}
-#product-new{
-	max-width: 1920px !important;
 }
 .team-member {
 	width: 100%;
