@@ -3317,6 +3317,9 @@ a.ovelay-icon:hover {
 	text-transform: uppercase;
 	text-align: center;
 }
+#product-new{
+	max-width: 1920px;
+}
 .team-member {
 	width: 100%;
 	height: auto;
