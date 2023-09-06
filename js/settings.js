@@ -248,3 +248,7 @@
 })(jQuery);
 
 
+
+
+// -------------------hiding the mob-icon automaticaly-----------------
+
