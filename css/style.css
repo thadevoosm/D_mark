@@ -1022,7 +1022,7 @@ ol li a:hover {
 	transition: all 0.5s ease 0s;
 }
 .fun-fact-items li:hover h2, .fun-fact-items li:hover .icon, .fun-fact-items li:hover p {
-	color: #FAAC3A;
+	color: #90e0ef;
 	transition: all 0.5s ease 0s;
 }
 /*----------------------------   Home Blog Area     ----------------------------------------------------*/
