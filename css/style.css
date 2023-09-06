@@ -846,7 +846,7 @@ ol li a:hover {
 	font-weight:700;
 }
 .features-box .features-text h5 {
-	color: #faac3a;
+	color: #0077b6;
 	font-weight:600;
 	line-height: 24px;
 	margin: 0 0 20px;
@@ -854,7 +854,7 @@ ol li a:hover {
 	transition: all 0.5s ease 0s;
 }
 .features-box .features-text h6 {
-	color: #faac3a;
+	color: #0077b6;
 	line-height: 24px;
 	margin: 0 0 20px;
 	padding: 0;
@@ -950,6 +950,10 @@ ol li a:hover {
 }
 .button-medium.left-align {
 	float: left;
+}
+.button-medium{
+	background-color: #0077b6 !important;
+	border: none !important;
 }
 /*----------------------------  fun-fact Area     ----------------------------------------------------*/
 .home-fun-fact-area-outer-sec {
@@ -3821,7 +3825,7 @@ h4 label {
 	line-height: 37px;
 	width: 25%;
 	display: inline-block;
-	background: #faac3a;
+	background: #0077b6;
 	color: #fff;
 	text-align: center;
 	font-size: 14px;
@@ -3869,7 +3873,7 @@ h4 label {
 	line-height: 48px;
 	top: 30px;
 	right: 0;
-	background: #faac3a;
+	background: #0077b6;
 	color: #fff;
 	text-align: center;
 	border-radius: 40px;
