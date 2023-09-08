@@ -460,6 +460,7 @@ body::-webkit-scrollbar-thumb {
 .mob-icon {
 	display: none;
 }
+
 /* ======================================================================================================= */
 /* 04. Banner Content Styles                                                                               */
 /* ======================================================================================================= */
@@ -896,6 +897,16 @@ ol li a:hover {
 	display: block;
 	margin: 0 auto;
 }
+
+.image-holder{
+	box-sizing: border-box;
+}
+
+#new-img-holder{
+	box-sizing: border-box;
+}
+
+	
 /*----------------------------   Home Features Area {different & Structure}     ----------------------------------------------------*/
 .make-different-outer-area {
 	width: 100%;
@@ -3299,11 +3310,47 @@ a.ovelay-icon:hover {
 	vertical-align: bottom;
 }
 .about-text-outer-area .right-side .img-holder img {
-	margin: 0 auto;
-	margin-top: 50px !important;
-	top: 0%;
+	margin: 0;
+	position: relative;
+	margin-left: auto;
+	margin-top: 0px !important;
+	top: -10px;
 	display: block;
 	width: 80%;
+	margin-bottom: 60px;
+}
+#Paragraph-one{
+	top: -260px;
+	margin-top: 0;
+	position: relative;
+	width: auto;
+	margin-top: 50px;
+
+}
+.oldmartun{
+	position: relative;
+	top: -210px;
+	list-style-type: circle !important; 
+	color: black !important; 
+}
+.oldmartun li{
+	margin-top: 15px;
+}
+@media (max-width: 1080px) {
+	#Paragraph-one{
+		margin-top: 70px;
+	}
+}
+
+@media (max-width: 559px) {
+	.about-text-outer-area .right-side .img-holder img{
+		margin-bottom: 140px;
+	}
+	#Paragraph-one{
+		margin-top: 110px;
+		font-size: 20px;
+	}
+
 }
 /*---------------------------   Our Team Styles    -----------------------------------*/
 .our-team-area-outer {
