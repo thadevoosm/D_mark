@@ -3312,15 +3312,15 @@ a.ovelay-icon:hover {
 .about-text-outer-area .right-side .img-holder img {
 	margin: 0;
 	position: relative;
-	margin-left: auto;
+	align-items: center;
 	margin-top: 0px !important;
-	top: -10px;
+	top: 250px;
 	display: block;
-	width: 80%;
+	width: 100%;
 	margin-bottom: 60px;
 }
 #Paragraph-one{
-	top: -260px;
+	top: -100px;
 	margin-top: 0;
 	position: relative;
 	width: auto;
@@ -3329,16 +3329,37 @@ a.ovelay-icon:hover {
 }
 .oldmartun{
 	position: relative;
-	top: -210px;
+	top: -70px;
 	list-style-type: circle !important; 
 	color: black !important; 
 }
 .oldmartun li{
 	margin-top: 15px;
 }
-@media (max-width: 1080px) {
-	#Paragraph-one{
-		margin-top: 70px;
+@media (max-width:1320px){
+	.about-text-outer-area .right-side .img-holder img{
+		top: 230px;
+	}
+	#paragraph-one{
+		top: 20rem;
+	}
+}
+@media (max-width:1220px){
+	.about-text-outer-area .right-side .img-holder img{
+		top: 200px;
+	}
+	#paragraph-one{
+		top: 22rem;
+	}
+}
+
+@media (max-width: 990px){
+	.about-text-outer-area .right-side .img-holder img{
+		top: -90px;
+		scale: 1;
+	}
+	.new-class-div{
+		top: -200px !important;
 	}
 }
 
