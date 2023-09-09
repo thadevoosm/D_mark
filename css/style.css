@@ -3309,18 +3309,9 @@ a.ovelay-icon:hover {
 	transition: all 0.5s ease 0s;
 	vertical-align: bottom;
 }
-.about-text-outer-area .right-side .img-holder img {
-	margin: 0;
-	position: relative;
-	align-items: center;
-	margin-top: 0px !important;
-	top: 250px;
-	display: block;
-	width: 100%;
-	margin-bottom: 60px;
-}
+
 #Paragraph-one{
-	top: -100px;
+	top: -50px;
 	margin-top: 0;
 	position: relative;
 	width: auto;
@@ -3329,44 +3320,46 @@ a.ovelay-icon:hover {
 }
 .oldmartun{
 	position: relative;
-	top: -70px;
+	top: 0px;
 	list-style-type: circle !important; 
 	color: black !important; 
 }
 .oldmartun li{
 	margin-top: 15px;
 }
+.main-title-image{
+	justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height:auto;
+}
+.main-title-image img{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
 @media (max-width:1320px){
-	.about-text-outer-area .right-side .img-holder img{
-		top: 230px;
-	}
+	
 	#paragraph-one{
 		top: 20rem;
 	}
 }
 @media (max-width:1220px){
-	.about-text-outer-area .right-side .img-holder img{
-		top: 200px;
-	}
+	
 	#paragraph-one{
 		top: 22rem;
 	}
 }
 
 @media (max-width: 990px){
-	.about-text-outer-area .right-side .img-holder img{
-		top: -90px;
-		scale: 1;
-	}
+	
 	.new-class-div{
 		top: -200px !important;
 	}
 }
 
 @media (max-width: 559px) {
-	.about-text-outer-area .right-side .img-holder img{
-		margin-bottom: 140px;
-	}
+	 
 	#Paragraph-one{
 		margin-top: 110px;
 		font-size: 20px;
