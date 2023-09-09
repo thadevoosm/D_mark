@@ -1602,9 +1602,9 @@ a.down-app-btn:hover, .down-app-btn:hover {
 
 
 .content-area {
-	padding: 110px 0;
+	padding: 0 !important;
 	width: 100%;
-	height: auto;
+	height: 300px;
 }
 .heading-dft {
 	width: 100%;
