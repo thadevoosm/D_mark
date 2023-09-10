@@ -1605,9 +1605,9 @@ a.down-app-btn:hover, .down-app-btn:hover {
 
 
 .content-area {
-	padding: 110px 0;
+	padding: 0 !important;
 	width: 100%;
-	height: auto;
+	height: 300px;
 }
 .heading-dft {
 	width: 100%;
@@ -3307,66 +3307,71 @@ a.ovelay-icon:hover {
     padding-top: 10px;
     width: 50%
 }
-.about-text-outer-area .right-side .img-holder img {
-	margin: 0;
-	position: relative;
-	align-items: center;
-	margin-top: 0px !important;
-	top: 250px;
-	display: block;
-	width: 100%;
-	margin-bottom: 60px;
-}
+
 #Paragraph-one{
 
 	margin-top: 0;
 	position: relative;
 	width: auto;
 	margin-top: 50px;
+	font-family: 'K2D', sans-serif;
+    font-weight: 400;
 
 }
 .oldmartun{
 	position: relative;
 	list-style-type: circle !important; 
 	color: black !important; 
+	font-family: 'K2D', sans-serif;
+    font-weight: 400;
 }
 .oldmartun li{
 	margin-top: 15px;
 }
+.main-title-image{
+	justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height:auto;
+}
+.main-title-image img{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
 @media (max-width:1320px){
-	.about-text-outer-area .right-side .img-holder img{
-		top: 230px;
-	}
+	
 	#paragraph-one{
 		top: 20rem;
 	}
 }
 @media (max-width:1220px){
-	.about-text-outer-area .right-side .img-holder img{
-		top: 200px;
-	}
+	
 	#paragraph-one{
 		top: 22rem;
 	}
 }
 
 @media (max-width: 990px){
-	.about-text-outer-area .right-side .img-holder img{
-		top: -90px;
-		scale: 1;
-	}
+	
 	.new-class-div{
 		top: -200px !important;
+	}
+	#paragraph-one{
+		top: 200px;
+		
+	}
+	.oldmartun{
+		font-size: 15px !important;
 	}
 }
 
 @media (max-width: 559px) {
-	.about-text-outer-area .right-side .img-holder img{
-		margin-bottom: 140px;
-	}
+	 
 	#Paragraph-one{
 		margin-top: 110px;
 		font-size: 20px;
+		
 	}
 
 }
@@ -4074,6 +4079,7 @@ h1 {
 	display: block;
 	padding: 30px 0 0;
 	position: relative;
+	top: 100px;
 }
 .our-team-area-outer .content-area {
 	padding: 100px 0;
