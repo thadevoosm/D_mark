@@ -904,6 +904,9 @@ ol li a:hover {
 
 #new-img-holder{
 	box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 	
@@ -3299,15 +3302,10 @@ a.ovelay-icon:hover {
 }
 .about-text-outer-area .right-side {
 	display: inline-block;
-	float: right;
-	margin: 0;
-	width: 50%;
-	bottom: 0;
-	display: table-cell;
-	position: absolute;
-	right: 0;
-	transition: all 0.5s ease 0s;
-	vertical-align: bottom;
+    float: right;
+    margin: 0;
+    padding-top: 10px;
+    width: 50%
 }
 .about-text-outer-area .right-side .img-holder img {
 	margin: 0;
@@ -3320,7 +3318,7 @@ a.ovelay-icon:hover {
 	margin-bottom: 60px;
 }
 #Paragraph-one{
-	top: -100px;
+
 	margin-top: 0;
 	position: relative;
 	width: auto;
@@ -3329,7 +3327,6 @@ a.ovelay-icon:hover {
 }
 .oldmartun{
 	position: relative;
-	top: -70px;
 	list-style-type: circle !important; 
 	color: black !important; 
 }
