@@ -1637,7 +1637,7 @@ a.down-app-btn:hover, .down-app-btn:hover {
 	display: block;
 }
 .main-title.right-align {
-	text-align: right;
+	text-align: left;
 }
 .main-title.left-align {
 	text-align: left;
