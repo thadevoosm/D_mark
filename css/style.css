@@ -3281,8 +3281,12 @@ a.ovelay-icon:hover {
 	position: relative;
 }
 .about-text-outer-area .content-area {
-	padding: 120px 0;
+	padding: 50px 0;
 	float: left;
+}
+.img-holder > img{
+	width: 900px !important;
+	height: auto;
 }
 .about-text-outer-area .left-side {
 	display: inline-block;
@@ -3367,6 +3371,10 @@ a.ovelay-icon:hover {
 	#Paragraph-one{
 		margin-top: 110px;
 		font-size: 20px;
+	}
+	.img-holder > img{
+		width: 400px !important;
+		height: auto;
 	}
 
 }
